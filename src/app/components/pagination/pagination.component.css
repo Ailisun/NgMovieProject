@@ -13,8 +13,16 @@ button{
   margin: 10px 5px;
 
 }
+
+
 button:hover {
   cursor:pointer;
   background-color: #bb95e1;
   color: white;
+}
+
+.btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

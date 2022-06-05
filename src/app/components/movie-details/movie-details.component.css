@@ -1,6 +1,6 @@
+
 .moviePage {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
 
 }
@@ -9,18 +9,19 @@ img {
 }
 
 h3{
-  color: #1f1f3b;
+  color: #ffffff;
   display: flex;
   justify-content: center;
 }
 
+.txt{
+  padding-bottom: 20px;
+}
 
 
 .infoMovie{
-  color: #283f34;
+  color: #ffffff;
   max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+
 
 }

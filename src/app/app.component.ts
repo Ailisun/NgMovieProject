@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Movie Project';
-
+  switchTheme():void{
+    document.body.classList.toggle('dark-mode')
+  }
 }

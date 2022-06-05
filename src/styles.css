@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -11,10 +12,12 @@ body {
 
 }
 
-/*body.dark-mode {*/
-/*  color:white;*/
-/*  background: rgb(142,42,59);*/
-/*  background: linear-gradient(356deg, rgba(142,42,59,1) 0%, rgba(36,11,54,1) 100%);}*/
-/* You can add global styles to this file, and also import other style files*/
+body.dark-mode {
+
+  background: rgb(81,124,92);
+  background: linear-gradient(90deg, rgba(81,124,92) 3%,
+  rgba(87,35,86,1) 23%, rgba(61,32,115,1) 68%, rgb(46, 18, 100) 100%);
+
+}
 
 

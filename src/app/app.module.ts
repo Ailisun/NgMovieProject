@@ -13,7 +13,7 @@ import {AppInterceptor} from "./app.interceptor";
 import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
 import {AppRoutingModule} from "./app-routing.module";
 import { RatingComponent } from './components/rating/rating.component';
-
+import {NgxStarRatingModule} from "ngx-star-rating";
 
 
 @NgModule({
@@ -32,6 +32,7 @@ import { RatingComponent } from './components/rating/rating.component';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    NgxStarRatingModule
 
   ],
   providers: [{

@@ -1,1 +1,11 @@
+::ng-deep label.star {
+  padding: 0 5px !important;
+  font-size: 20px !important;
+  color: #ffffff !important;}
+::ng-deep label.star::before {
+   content: "\f005" !important;
+ }
+::ng-deep label.star:hover {
+   transform: rotate(0deg) scale(1.2) !important;
+ }
 

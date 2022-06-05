@@ -27,7 +27,7 @@ export class MovieDetailsComponent implements OnInit {
   movieGenres():string {
     let genres: string[] = []
     this.movie.genres.map(genre =>{ genres.push(genre.name)})
-    return genres.join(',')
+    return genres.join(', ')
   }
 
 }

@@ -40,5 +40,7 @@ prevPage() {
   }
   this.router.navigate([''], {relativeTo: this.activatedRoute, queryParams: {page: `${this.page}`}}).then()
 }
-
+  switchTheme():void{
+    document.body.classList.toggle('dark-mode')
+  }
 }
