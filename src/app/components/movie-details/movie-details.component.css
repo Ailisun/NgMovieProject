@@ -1,0 +1,26 @@
+.moviePage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+img {
+  min-height: 350px;
+}
+
+h3{
+  color: #1f1f3b;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.infoMovie{
+  color: #283f34;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
