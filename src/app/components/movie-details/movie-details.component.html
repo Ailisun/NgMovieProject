@@ -1,0 +1,10 @@
+<div *ngIf="movie">
+  <p>title:{{movie.original_title}}</p>
+  <div><img src="https://image.tmdb.org/t/p/w200{{movie.poster_path}}" alt="movie img"></div>
+</div>
+<div class="container">
+  <div class="info">Date: {{movie.release_date}}</div>
+  <div class="info">Genre: {{movieGenres()}}</div>
+  <div class="info, overview">Overview: {{movie.overview}}</div>
+</div>
+

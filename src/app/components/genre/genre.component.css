@@ -1,0 +1,12 @@
+select {
+  background: greenyellow;
+  height: 40px;
+  width: 200px;
+  color: #283f34;
+  border-radius: 10px;
+  margin-left: 20px;
+
+}
+option{
+  background-color: #bb95e1;
+}

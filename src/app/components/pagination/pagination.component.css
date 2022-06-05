@@ -1,0 +1,20 @@
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button{
+  height: 50px;
+  width: 120px;
+  border: 2px solid rgba(165, 59, 185, 0.76);
+  border-radius: 10px;
+  background-color: greenyellow;
+  color: #283f34;
+  margin: 10px 5px;
+
+}
+button:hover {
+  cursor:pointer;
+  background-color: #bb95e1;
+  color: white;
+}

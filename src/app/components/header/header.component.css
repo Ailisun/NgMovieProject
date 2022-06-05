@@ -1,0 +1,13 @@
+.container{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(165, 59, 185, 0.76);
+  box-shadow: 5px 5px 5px rgba(114, 29, 128, 0.76);
+}
+.user {
+  color: greenyellow;
+  padding: 10px;
+  font-size: 23px;
+}

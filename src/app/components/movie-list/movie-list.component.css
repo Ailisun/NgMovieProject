@@ -1,0 +1,14 @@
+.wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.movieList {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.pagination {
+  height: 130px;
+}

@@ -1,0 +1,41 @@
+div > img {
+  max-height:350px;
+  width:auto ;
+  border-radius: 10px;
+}
+
+.movie{
+  min-height: 400px;
+  min-width: 300px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  border: none;
+
+  box-shadow: 0 4px 10px 10px rgba(44,47,60,0.06), 0 3px 10px 0 rgba(44,47,60,0.09);
+  border-radius: 6px;
+  font-family: serif;
+  font-size: 16px;
+}
+
+.movie:hover {
+  background-color: #bb95e1;
+  color:#313131;
+  box-shadow: 5px 3px 2px rgba(114, 29, 128, 0.76);
+}
+
+.addInfo {
+  min-width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between ;
+  align-items: center;
+  text-align: center;
+}
+
+.title a{
+  text-decoration: none;
+  color: #283f34;}

@@ -1,0 +1,9 @@
+<!--<div>{{movie.id}}- {{movie.title}}-->
+<div class="movie" [routerLink]="[movie.id]" >
+
+  <div class="addInfo">
+    <div><img src="https://image.tmdb.org/t/p/w500/{{movie.poster_path}}" alt="{{movie.title}}"></div>
+    <div class="title"><a routerLink="{{movie.id}}" [state]="movie" >{{movie.title}}</a></div>
+  </div>
+
+</div>
