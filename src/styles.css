@@ -10,4 +10,9 @@ body {
   rgba(155,43,232,1) 23%, rgba(236,56,188,1) 68%, rgba(253,239,249,1) 100%);
 
 }
+
+body.dark-theme {
+  color:white;
+  background: rgb(142,42,59);
+  background: linear-gradient(356deg, rgba(142,42,59,1) 0%, rgba(36,11,54,1) 100%);}
 /* You can add global styles to this file, and also import other style files */

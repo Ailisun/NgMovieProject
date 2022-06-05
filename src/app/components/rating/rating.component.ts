@@ -6,9 +6,11 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./rating.component.css']
 })
 export class RatingComponent implements OnInit {
-  // @Input()
-  // currentRate: number;
-  constructor() { }
+
+  constructor() {
+
+  }
+
 
   ngOnInit(): void {
   }

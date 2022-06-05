@@ -14,6 +14,8 @@ import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
 import {AppRoutingModule} from "./app-routing.module";
 import { RatingComponent } from './components/rating/rating.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +31,8 @@ import { RatingComponent } from './components/rating/rating.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [{
     provide: HTTP_INTERCEPTORS,
